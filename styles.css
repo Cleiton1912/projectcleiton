@@ -1,0 +1,187 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+aside section p,
+aside section dl,
+aside section ul{
+  padding: 16px 0;
+}
+
+.date_lieu{
+	min-width: 150px;
+	margin-right: 20px;
+	width: 160px;
+	margin-left: 20px;
+	float: left;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 60px;
+	color: #5c5252;
+}
+
+.circle-1 i {
+	color: #f8c906;
+	font-size: 10px;
+	padding-top: 20px;
+	padding-left: 5%;
+	float: left;
+}
+section ul{
+	padding: 14px 0;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1em;	
+}
+
+article li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+} 
+
+ #moi{
+ 	display: inherit;
+ 	padding-left: 10%;
+ 	margin-bottom: 8%;
+ }
+
+
+.elementDroit{
+	width: 98%;
+	margin-bottom: 2%;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+#contenaireR{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.contenairegaucheElementR{
+	font-size: 1em;
+	margin-top: 1%;
+}
+
+.titreElementDroit{
+	font-size: 1.8em;
+	border-bottom: 4px solid #faca33;
+}
+
+ h1{
+ 	font-size: 60px;
+ 	color: #4a4a4a;
+ 	padding-left: 5%;
+ 	padding-bottom: 0;
+ 	margin-top: 12%;
+ 	margin-bottom: 0%;
+ }
+
+.dev{
+	text-decoration: underline;
+	text-decoration-color: #feca07
+}
+h4{
+	font-size: 30px;
+	padding-left: 5%;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0%;
+	color: #5c5252;
+}
+
+.NameColor{
+	color: #f8c906;
+	text-transform: uppercase;
+}
+
+i{
+	font-size: 1.6em;
+	color: #00000;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+div.container{
+	display: flex;
+}
+
+div.right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   align-content: stretch;
+  }
+
+
+aside{
+	background-color: #feca07;
+	padding: 69px 0 0;
+	text-align: center;	
+}
+
+h2{
+	background-color: #50514F;
+	color: #feca07;
+	font-family: arial,sans-serif;
+	font-size: 1.2em;
+}
+
+
+
+ul.loisirs{
+	display: flex;
+	justify-content: space-around;
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+p{
+	width: 140px;
+	height: 350px;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+ul.loisirs li{
+	font-size: 30px;
+}
+
+aside img.profile{
+	height: 216px;
+	width: 124px;
+	display: block;
+	margin: 0px auto 42px;
+}
+
+
+@media only screen and (min-width: 1200px) {   
+	body{
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	aside{
+		width: 384px;
+
+	}
+}
+
+
+
+
+
+
+
+
